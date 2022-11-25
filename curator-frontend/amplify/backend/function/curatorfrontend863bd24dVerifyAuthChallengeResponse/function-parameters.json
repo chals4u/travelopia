@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "boilerplate-verify"
+  ],
+  "parentResource": "curatorfrontend863bd24d",
+  "functionName": "curatorfrontend863bd24dVerifyAuthChallengeResponse",
+  "resourceName": "curatorfrontend863bd24dVerifyAuthChallengeResponse",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\VerifyAuthChallengeResponse",
+  "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+  "triggerEventPath": "VerifyAuthChallengeResponse.event.json",
+  "roleName": "curatorfrontend863bd24dVerifyAuthChallengeResponse",
+  "skipEdit": true,
+  "enableCors": false
+}

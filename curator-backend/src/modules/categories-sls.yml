@@ -1,0 +1,25 @@
+categories-getCategories:
+  handler: src/handlers/categories/categories.getCategories
+  events:
+    - http:
+        path: getCategories
+        method: get
+        cors: true
+deleteCategories:
+  handler: src/handlers/categories/categories.deleteCategories
+  events:
+    - http:
+        path: categories/{id}
+        method: delete
+        cors: true
+        request:
+          parameters:
+            paths:
+              id: true        
+createCategories:
+  handler: src/handlers/categories/categories.createCategories
+  events:
+    - http:
+        method: POST
+        path: categories
+        cors: true

@@ -1,0 +1,35 @@
+user-createUser:
+  handler: src/handlers/user/user.createUser
+  events:
+    - http:
+        path: registration
+        method: post
+        cors: true
+user-detail:
+  handler: src/handlers/user/user.getUserDetail
+  events:
+    - http:
+        path: userDetail
+        method: get
+        cors: true
+user-loginUser:
+  handler: src/handlers/user/user.loginUser
+  events:
+    - http:
+        path: loginUser
+        method: post
+        cors: true
+user-sms:
+  handler: src/handlers/user/user.sms
+  events:
+    - http:
+        path: sms
+        method: get
+        cors: true
+user-category:
+  handler: src/handlers/user/user.getUserCategory
+  events:
+    - http:
+        path: usercategory
+        method: get
+        cors: true

@@ -1,0 +1,281 @@
+/*-------------------------------------------------------
+    [ responsive max-width sizes ]
+-------------------------------------------------------*/
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    .logo {
+        width: 35%;
+    }
+
+    .header-menu {
+        margin-left: 15px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .authentication-form-box {
+        width: 80%;
+    }
+
+    .form-register .authentication-form-box {
+        width: 95%;
+    }
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .authentication-form-box {
+        width: 75%;
+    }
+
+    .form-register .authentication-form-box {
+        width: 75%;
+    }
+
+    .authentication-logo {
+        margin-bottom: 10px;
+    }
+
+    .form-register .social-media-login ul {
+        grid-template-columns: 25% 25% 25%;
+        justify-content: space-between;
+        column-gap: 0;
+    }
+
+    .checkbox-form {
+        flex-wrap: wrap;
+    }
+
+    .checkbox-form .form-check-inline {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .authentication-form-box {
+        width: 100%;
+        padding: 45px 25px;
+    }
+
+    .social-media-login ul {
+        grid-template-columns: 28% 28% 28%;
+    }
+
+    .header-user-thumb-text {
+        display: none;
+    }
+
+    .header-user-thumb-image {
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+    #create-patient-tab li .nav-link {
+        padding: 0 10px 21px 10px;
+        font-size: var(--font-size-m);
+    }
+
+
+
+}
+
+/* // X-Small devices (portrait phones, less than 480px) */
+@media (max-width: 480px) {}
+
+/*-------------------------------------------------------
+    [ responsive min-width sizes ]
+-------------------------------------------------------*/
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 767px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Large devices (desktops,1170px and up) */
+@media (min-width: 1170px) {
+
+    .content {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-left,
+    .header-right {
+        width: 50%;
+    }
+
+    .header-right {
+        justify-content: flex-end;
+    }
+
+    .logo {
+        width: 31.3%;
+    }
+
+    .section-outer {
+        padding: 1.3177159590043923vw;
+        box-shadow: 0px 0.322061191626409vw 1.7569546120058566vw rgba(0, 0, 0, 0.08);
+        border-radius: 0.5856515373352855vw;
+    }
+
+    .section-outer-plain {
+        padding: 1.3177159590043923vw;
+        border-width: 0.07320644216691069vw;
+    }
+
+    .header {
+        box-shadow: 0px 0.21961932650073207vw 0.7320644216691069vw rgb(0 0 0 / 5%);
+        height: 5.124450951683748vw;
+    }
+
+    a.menu {
+        padding-top: 0.4830917874396135vw;
+        padding-bottom: 0.4830917874396135vw;
+        border-radius: 0.322061191626409vw;
+        padding-left: 1.0248901903367496vw;
+        padding-right: 1.0248901903367496vw;
+    }
+
+    a.menu svg {
+        width: 1.4641288433382138vw;
+        height: 1.4641288433382138vw;
+        margin-right: 0.7320644216691069vw;
+    }
+
+    .header-notification {
+        width: 1.4641288433382138vw;
+        height: 1.4641288433382138vw;
+    }
+
+    .header-notification img {
+        width: 1.4641288433382138vw;
+        height: 1.4641288433382138vw;
+    }
+
+    .header-notification-count {
+        right: -0.36603221083455345vw;
+        top: -0.4830917874396135vw;
+        width: 1.0980966325036603vw;
+        height: 1.0980966325036603vw;
+    }
+
+
+    .header-user-thumb-image {
+        width: 2.9282576866764276vw;
+        height: 2.9282576866764276vw;
+    }
+
+    .content-panel {
+        padding-top: 5.124450951683748vw;
+    }
+
+    #create-patient-tab {
+        border-bottom: 0.14641288433382138vw solid rgb(163 163 163 / 20%);
+    }
+
+    #create-patient-tab li .nav-link {
+        padding: 0 1.0980966325036603vw 1.570048309178744vw 1.0980966325036603vw;
+    }
+
+    #create-patient-tab li .nav-link:after {
+        height: 0.14641288433382138vw;
+        bottom: -0.14641288433382138vw;
+    }
+
+    .icon-btn {
+        --bs-btn-padding-x: 0.966183574879227vw;
+        --bs-btn-padding-y: 0.5136876006441223vw;
+    }
+
+    .icon-btn svg {
+        margin-right: 0.966183574879227vw;
+        width: 1.1272141706924315vw;
+        height: auto;
+    }
+
+    /* .custom-width {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+
+    /* .questionnaire:::::::::::::::::::::::::::: */
+
+    .questionnaire {
+        padding: 2.1961932650073206vw 1.4641288433382138vw;
+        border-radius: 2.4890190336749636vw;
+    }
+
+    .count {
+        width: 2.4890190336749636vw;
+        height: 2.4890190336749636vw;
+    }
+
+    .answer {
+        border-width: 0.07320644216691069vw;
+    }
+
+    .dropdown-toggle::after {
+        margin-left: 0.36603221083455345vw;
+        border-top: 0.36603221083455345vw solid;
+        border-right: 0.36603221083455345vw solid transparent;
+        border-bottom: 0;
+        border-left: 0.36603221083455345vw solid transparent;
+    }
+
+    ul.dropdown-menu li a {
+        padding: 0.7320644216691069vw;
+    }
+
+    ul.dropdown-menu {
+        padding: 0.5136876006441223vw;
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-min-width: 11.75523349436393vw;
+        --bs-dropdown-padding-y: 0.5856515373352855vw;
+        --bs-dropdown-spacer: 0.14641288433382138vw;
+        --bs-dropdown-font-size: 1.171303074670571vw;
+        --bs-dropdown-border-radius: 0.4830917874396135vw;
+        --bs-dropdown-border-width: 0.07320644216691069vw;
+        --bs-dropdown-divider-margin-y: 0.5856515373352855vw;
+        --bs-dropdown-box-shadow: 0 0.5856515373352855vw 1.171303074670571vw rgba(0, 0, 0, 0.15);
+        --bs-dropdown-item-padding-x: 1.171303074670571vw;
+        --bs-dropdown-item-padding-y: 0.322061191626409vw;
+        --bs-dropdown-header-padding-x: 1.171303074670571vw;
+        --bs-dropdown-header-padding-y: 0.5856515373352855vw;
+    }
+
+    .bottom-menus ul {
+        border-radius: 100px;
+        width: 80%;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+}

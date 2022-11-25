@@ -1,0 +1,46 @@
+saveAnswer:
+  handler: src/handlers/answer/answer.saveAnswer
+  events:
+    - http:
+        path: answer
+        method: post
+        cors: true
+getAnswers:
+  handler: src/handlers/answer/answer.getAnswers
+  events:
+    - http:
+        path: answer/{id}
+        method: get
+        cors: true        
+getAllAnswers:
+  handler: src/handlers/answer/answer.getAllAnswers
+  events:
+    - http:
+        path: get-answers
+        method: get
+        cors: true     
+getQuestionAnswers:
+  handler: src/handlers/answer/answer.getQuestionAnswers
+  events:
+    - http:
+        path: get-answers/{id}
+        method: get
+        cors: true                    
+getUserScore:
+  handler: src/handlers/answer/answer.getUserScore
+  events:
+    - http:
+        path: get-user-score/{id}
+        method: get
+        cors: true  
+deleteAnswers:
+  handler: src/handlers/answer/answer.deleteAnswers
+  events:
+    - http:
+        path: answer/{id}
+        method: delete
+        cors: true
+        request:
+          parameters:
+            paths:
+              id: true            

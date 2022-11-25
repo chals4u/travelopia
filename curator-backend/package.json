@@ -1,0 +1,33 @@
+{
+  "name": "curator-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "func host start",
+    "dev": "sls offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phenowise/curator-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Phenowise/curator-backend/issues"
+  },
+  "homepage": "https://github.com/Phenowise/curator-backend.git#readme",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-auto-swagger": "^2.10.0",
+    "serverless-offline": "^9.1.6"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1196.0",
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.5.1"
+  }
+}

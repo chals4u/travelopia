@@ -1,0 +1,27 @@
+getQuestion:
+  handler: src/handlers/question/question.getQuestion
+  events:
+    - http:
+        path: question/{id}
+        method: get
+        cors: true
+        
+deleteQuestion:
+  handler: src/handlers/question/question.deleteQuestion
+  events:
+    - http:
+        path: question/{id}
+        method: delete
+        cors: true
+        request:
+          parameters:
+            paths:
+              id: true    
+
+createQuestion:
+  handler: src/handlers/question/question.createQuestion
+  events:
+    - http:
+        method: POST
+        path: question
+        cors: true

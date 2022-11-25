@@ -1,0 +1,14 @@
+saveComments:
+  handler: src/handlers/comments/comments.saveComments
+  events:
+    - http:
+        path: comments
+        method: post
+        cors: true
+getAnswers:
+  handler: src/handlers/comments/comments.getComments
+  events:
+    - http:
+        path: comments/{id}
+        method: get
+        cors: true   

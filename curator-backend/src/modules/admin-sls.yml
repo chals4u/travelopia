@@ -1,0 +1,7 @@
+approveAnswer:
+  handler: src/handlers/admin/admin.approveAnswer
+  events:
+    - http:
+        method: POST
+        path: approve-answer
+        cors: true

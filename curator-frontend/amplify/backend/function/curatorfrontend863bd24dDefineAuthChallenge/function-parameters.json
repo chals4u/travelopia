@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "boilerplate-define-challenge"
+  ],
+  "parentResource": "curatorfrontend863bd24d",
+  "functionName": "curatorfrontend863bd24dDefineAuthChallenge",
+  "resourceName": "curatorfrontend863bd24dDefineAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\DefineAuthChallenge",
+  "triggerTemplate": "DefineAuthChallenge.json.ejs",
+  "triggerEventPath": "DefineAuthChallenge.event.json",
+  "roleName": "curatorfrontend863bd24dDefineAuthChallenge",
+  "skipEdit": true,
+  "enableCors": false
+}
