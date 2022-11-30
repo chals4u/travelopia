@@ -1,0 +1,6 @@
+ SELECT *  
+    FROM information_schema.COLUMNS  
+    WHERE  
+        TABLE_SCHEMA = 'db_name'  
+    AND TABLE_NAME = 'table_name'  
+    AND COLUMN_NAME = 'column_name' 
